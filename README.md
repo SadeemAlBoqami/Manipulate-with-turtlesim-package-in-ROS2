@@ -30,10 +30,11 @@ Basic interaction with the `turtlesim` package in ROS2, using topics, services, 
 # Parameters: 
 **To adjust node settings and configure environment behavior (Adjust the background color, or turn on/off the turtle effect)**
 - List parameters: `ros2 param list`
-- Change background color (e.g., yellow): `ros2 param set /turtlesim background_r 255
-ros2 param set /turtlesim background_g 255
-ros2 param set /turtlesim background_b 0
-ros2 service call /clear std_srvs/srv/Empty`
+- Change background color (e.g., yellow): `ros2 param set /turtlesim background_r 255`
+`ros2 param set /turtlesim background_g 255`
+`ros2 param set /turtlesim background_b 0`
+`ros2 service call /clear std_srvs/srv/Empty`
+
 
 
 
