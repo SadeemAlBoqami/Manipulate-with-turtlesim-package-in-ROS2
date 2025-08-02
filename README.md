@@ -4,7 +4,11 @@ Basic interaction with the `turtlesim` package in ROS2, using topics, services, 
 ## Requirements:
 - Ubuntu 22.04 or compatible.
 - ROS2 (e.g. Humble).
-- turtlesim package installed: from Ubuntu terminal `sudo apt update` `sudo apt install ros-humble-turtlesim`
+- turtlesim package installed:
+```bash
+sudo apt update
+sudo apt install ros-humble-turtlesim
+```
 
 ## Running and Simulation:
 1. Run `turtlesim` (the simulation window):
@@ -30,7 +34,11 @@ Basic interaction with the `turtlesim` package in ROS2, using topics, services, 
 ### Parameters: 
 **To adjust node settings and configure environment behavior (Adjust the background color, or turn on/off the turtle effect)**
 - List parameters: `ros2 param list`
-- Change background color (e.g., yellow): `ros2 param set /turtlesim background_r 255`
-`ros2 param set /turtlesim background_g 255`
-`ros2 param set /turtlesim background_b 0`
-`ros2 service call /clear std_srvs/srv/Empty`
+- Change background color (e.g., yellow):
+  ```bash
+  ros2 param set /turtlesim background_r 255
+  ros2 param set /turtlesim background_g 25
+  ros2 param set /turtlesim background_b 0
+  ros2 service call /clear std_srvs/srv/Empty
+  ```
+  
