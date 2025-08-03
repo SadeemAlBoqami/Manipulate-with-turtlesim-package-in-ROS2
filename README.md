@@ -41,4 +41,7 @@ sudo apt install ros-humble-turtlesim
   ros2 param set /turtlesim background_b 0
   ros2 service call /clear std_srvs/srv/Empty
   ```
+
+## Watch Demo Video
+[Screencast.webm](https://github.com/user-attachments/assets/36273107-5459-4af6-859c-a67e822e0be7)
   
